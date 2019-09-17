@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giải phương trình bậc 2"
+        android:textSize="50px"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập a"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:id="@+id/txt_soa"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập b"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:id="@+id/txt_sob"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập c"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:id="@+id/txt_soc"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:text="GIẢI VÀ GỞI KẾT QUẢ"
+        android:id="@+id/btn_giai"
+        android:layout_marginTop="100px"/>
+
+</LinearLayout>
